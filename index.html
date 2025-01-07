@@ -1,16 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>realState</title>
     <!-- link style file -->
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- create header file -->
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>realState</h1>
+        </div>
+        <div class="ul">
+          <ul class="li">
+            <li><a href="#">Rent</a></li>
+            <li><a href="">Buy</a></li>
+            <li><a href="">Sell</a></li>
+            <li><a href="">ManageProperty</a></li>
+            <li><a href="">Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <button class="login">Login</button>
+          <button class="signUp">signUp</button>
+        </div>
+      </nav>
+    </header>
 
+    <!-- hero section -->
+    <section>
+      <div class="hero">
+        <div class="header">
+          <h1>Buy, Rent, or Sell Your Property Easily</h1>
+          <p>
+            A great platform to buy, sell, or even rent your properties without
+            any commissions.
+          </p>
+        </div>
+        <div class="options">
+          <button class="option-button">Rent</button>
+          <button class="option-button">Buy</button>
+          <button class="option-button">Sell</button>
+        </div>
+        <div class="search-form">
+          <div class="form-group">
+            <label for="location">Location</label>
+            <input
+              type="text"
+              id="location"
+              placeholder="Barcelona, Spain"
+              value="Barcelona, Spain"
+            />
+          </div>
+          <div class="form-group">
+            <label for="move-in-date">When</label>
+            <input type="date" id="move-in-date" />
+          </div>
+          <button class="browse-button">Browse Properties</button>
+        </div>
+      </div>
+
+      <div class="theme">
+        <img src="./asset/Image.png" alt="" class="image" />
+
+        <div class="card top-card">
+          <div class="head">
+            <div class="img">
+              <img src="./asset/woman.png" alt="" width="25px" height="25px" />
+            </div>
+            <div class="text">
+              <h3>Topper Girl</h3>
+              <p>Renter</p>
+              <p>Moved with <span>realState</span></p>
+            </div>
+          </div>
+          <div class="para">
+            <img src="" alt="" />
+            <p>
+              I loved how smooth the move was,and finally got the house we
+              wanted
+            </p>
+          </div>
+          <hr />
+          <div class="fot">
+            <div class="rupya">
+              <h1>1500</h1>
+              <p>Saved up to</p>
+            </div>
+            <div class="rupya">
+              <h1>-24 hrs</h1>
+              <p>Process time</p>
+            </div>
+          </div>
+        </div>
+        <div class="card bottom-card">
+          <div class="hed">
+            <h3>Excellent</h3>
+            <div class="img"></div>
+            <p>From 3,264 reviews</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- feature section -->
+
+    <section class="features">
+      <div class="container-left">
+        <div class="hero-content">
+          <h2>The new way to find your new home</h2>
+          <p>
+            Find your dream place to live in with more than 10K+ properties
+            listed.
+          </p>
+          <button class="btn">Browse Properties</button>
+            <img src="./asset/img2.avif" alt="Isometric House Illustration" />
+          
+        </div>
+        
+      </div>
+
+      <div class="container-right">
+        <div class="feature">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Property Insurance</h3>
+          <p>
+            We offer our customer property protection of liability coverage and
+            insurance for their better life.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+          <h3>Best Price</h3>
+          <p>
+            Not sure what you should be charging for your property? No need to
+            worry, let us do the numbers for you.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon"><i class="fas fa-percent"></i></div>
+          <h3>Lowest Commission</h3>
+          <p>
+            You no longer have to negotiate commissions and haggle with other
+            agents it only cost 2%!
+          </p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon"><i class="fas fa-unlock-alt"></i></div>
+          <h3>Overall Control</h3>
+          <p>
+            Get a virtual tour, and schedule visits before you rent or buy any
+            properties. You get overall control.
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- main section -->
+<div class="header">
+  <div class="nav">
+    <ul>
+      <li><a href="#">Rent</a></li>
+      <li><a href="#">Buy</a></li>
+      <li><a href="#">Sell</a></li>
+    </ul>
+  </div>
+  <form>
+    <input type="text" placeholder="Search...">
+  </form>
+</div>
+<main>
+  <section class="listings">
+    <div class="listing">
+      <div class="image-container">
+        <img src="./asset/img6.png" alt="Beverly Springfield">
+      </div>
+      <div class="details">
+        <span class="popular">POPULAR</span>
+        <h3>$2,700/month</h3>
+        <h2>Beverly Springfield</h2>
+        <p>2821 Lake Sevilla, Palm Harbor, TX</p>
+        <ul>
+          <li>4 Beds</li>
+          <li>2 Bathrooms</li>
+          <li>6x7.5m²</li>
+        </ul>
+        <button class="favorite"><i class="fas fa-heart"></i></button>
+      </div>
+    </div>
+
+    <div class="listing">
+      <div class="image-container">
+        <img src="./asset/img4.avif" alt="Beverly Springfield">
+      </div>
+      <div class="details">
+        <span class="popular">POPULAR</span>
+        <h3>$2,700/month</h3>
+        <h2>Beverly Springfield</h2>
+        <p>2821 Lake Sevilla, Palm Harbor, TX</p>
+        <ul>
+          <li>4 Beds</li>
+          <li>2 Bathrooms</li>
+          <li>6x7.5m²</li>
+        </ul>
+        <button class="favorite"><i class="fas fa-heart"></i></button>
+      </div>
+    </div>
+
+    <div class="listing">
+      <div class="image-container">
+        <img src="./asset/img2.avif" alt="Faulkner Ave">
+      </div>
+      <div class="details">
+        <span class="popular">POPULAR</span>
+        <h3>$4,550/month</h3>
+        <h2>Faulkner Ave</h2>
+        <p>909 Woodland St, Michigan, IN</p>
+        <ul>
+          <li>4 Beds</li>
+          <li>3 Bathrooms</li>
+          <li>8x10m²</li>
+        </ul>
+        <button class="favorite"><i class="fas fa-heart"></i></button>
+      </div>
+    </div>
+    <div class="listing">
+      <div class="image-container">
+        <img src="./asset/img2.avif" alt="Faulkner Ave">
+      </div>
+      <div class="details">
+        <span class="popular">POPULAR</span>
+        <h3>$4,550/month</h3>
+        <h2>Faulkner Ave</h2>
+        <p>909 Woodland St, Michigan, IN</p>
+        <ul>
+          <li>4 Beds</li>
+          <li>3 Bathrooms</li>
+          <li>8x10m²</li>
+        </ul>
+        <button class="favorite"><i class="fas fa-heart"></i></button>
+      </div>
+    </div>
+    <div class="listing">
+      <div class="image-container">
+        <img src="./asset/img2.avif" alt="Faulkner Ave">
+      </div>
+      <div class="details">
+        <span class="popular">POPULAR</span>
+        <h3>$4,550/month</h3>
+        <h2>Faulkner Ave</h2>
+        <p>909 Woodland St, Michigan, IN</p>
+        <ul>
+          <li>4 Beds</li>
+          <li>3 Bathrooms</li>
+          <li>8x10m²</li>
+        </ul>
+        <button class="favorite"><i class="fas fa-heart"></i></button>
+      </div>
+      
+    </div>
+    
+  </section>
+</main>
+
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>realState</h3>
+            <p>&copy; 2025</p>
+          </div>
+          <div class="col">
+            <h4>Customers</h4>
+            <ul>
+              <li><a href="#">Buyer</a></li>
+              <li><a href="#">Supplier</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Further Information</h4>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Follow us</h4>
+            <ul class="social-icons">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- add js file -->
-     <script src="./index.js"></script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
